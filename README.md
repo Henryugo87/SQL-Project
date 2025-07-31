@@ -64,4 +64,6 @@ VALUES
 ('10', 'Blessing', 'Mark', 'Blessing.mark@gmail.com', '0803‑123‑0010', 'Uyo');
 </pre>
 
-![image alt]()
+![image alt](https://github.com/Henryugo87/SQL-Project/blob/17ca51a5d18c035b716491d142417e60605413d1/Screenshot%202025-07-31%20141951.png)
+
+
