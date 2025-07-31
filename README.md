@@ -98,4 +98,4 @@ INNER JOIN
     ProductTB AS p ON o.ProductID = p.ProductID;
 </pre>
 
-![image alt]()
+![image alt](https://github.com/Henryugo87/SQL-Project/blob/d9133818f5d567ec118d3d79d13e3884f2159d04/Screenshot%202025-07-31%20143705.png)
