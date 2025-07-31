@@ -130,3 +130,23 @@ ORDER BY
 </pre>
 
 ![image alt](https://github.com/Henryugo87/SQL-Project/blob/13064aaa68df6f5723db31aef808ebf857a8c9d7/Screenshot%202025-07-31%20143737.png)
+
+
+5.To Select the city that generated the highest revenue for AxiaStores 
+<pre>
+SELECT TOP (1)
+    c.City,
+    SUM(o.Quantity * p.UnitPrice) AS TotalRevenue
+FROM 
+    OrdersTB AS o
+INNER JOIN 
+    CustomerTB AS c ON o.CustomerID = c.CustomerID
+INNER JOIN 
+    ProductTB AS p ON o.ProductID = p.ProductID
+GROUP BY 
+    c.City
+ORDER BY 
+    TotalRevenue DESC;
+</pre>
+
+![image alt]()
