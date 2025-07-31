@@ -129,4 +129,4 @@ ORDER BY
     AverageSales DESC;
 </pre>
 
-![image alt]()
+![image alt](https://github.com/Henryugo87/SQL-Project/blob/13064aaa68df6f5723db31aef808ebf857a8c9d7/Screenshot%202025-07-31%20143737.png)
