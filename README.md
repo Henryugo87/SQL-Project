@@ -17,6 +17,14 @@ The primary goal of this project is to
 ## Tools and Methodologies 
 *Tool Used:* *SQL SERVER MANAGEMENT STUDIO 21* [Download Here](https://www.microsoft.com/en-us/sql-server/sql-server-downloads)
 
+1. Open your SSMS.
+2. Load and execute script like:
+   - Create a new database called *AxiaStores*
+   - Create *CustomerTB, **ProductTB, and **OrdersTB* tables using proper data types and data constraints
+   - Populate *CustomerTB, **ProductTB, and **OrdersTB* tables with the necessary data
+   - Anwser analytical questions and run queries, save and document results for reporting and insights
+
+
 ## Key Analytical Questions
 The queries in this project aim to answer the following key questions based on the AxiaStores dataset:
 1. Return the FirstName and Email of every customer who has ever purchased the product “Wireless Mouse”
@@ -25,6 +33,8 @@ The queries in this project aim to answer the following key questions based on t
 4. Show average sales per product category and sort in descending order
 5. Which city generated the highest revenue for AxiaStores
 
+## Samples of SQL Queries and Results
+Here are examples of key queries used in the project and their results:
 
 1. *CREATING DATABASE*
 <pre>
@@ -53,3 +63,5 @@ VALUES
 ('9', 'Kelvin', 'Peters', 'kelvin.peters@hotmail.com', '0803‑123‑0009', 'Asaba'),
 ('10', 'Blessing', 'Mark', 'Blessing.mark@gmail.com', '0803‑123‑0010', 'Uyo');
 </pre>
+
+![image alt]()
