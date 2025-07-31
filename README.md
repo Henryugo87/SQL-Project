@@ -149,4 +149,4 @@ ORDER BY
     TotalRevenue DESC;
 </pre>
 
-![image alt]()
+![image alt](https://github.com/Henryugo87/SQL-Project/blob/618c4bc2060e2579061c9e4f8f8ea52bf745bc48/Screenshot%202025-07-31%20143832.png)
