@@ -66,4 +66,16 @@ VALUES
 
 ![image alt](https://github.com/Henryugo87/SQL-Project/blob/17ca51a5d18c035b716491d142417e60605413d1/Screenshot%202025-07-31%20141951.png)
 
+## Answers to Analytical Questions and Results
+
+1. *Return the FirstName and Email of every customer who has ever purchased the product “Wireless Mouse”*
+<pre>
+--Return the FirstName and Email of every customer who has ever purchased the product “Wireless Mouse”
+select c.firstname, c.email from customertb c
+join OrdersTB o on c.CustomerID = o.CustomerID
+join ProductTB p on o.ProductID = p.ProductID
+where p.ProductID=1
+</pre>
+
+![image alt](https://github.com/Icemma/SQL_Projects/blob/7501c6152a7c11c8af3d1c4ce76bc412a164346f/Screenshot%202025-07-25%20154957.png)
 
