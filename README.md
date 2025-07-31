@@ -90,7 +90,7 @@ ORDER BY
     LastName ASC, 
     FirstName ASC;
 </pre>
-![image alt](https://github.com/Henryugo87/SQL-Project/blob/0179f8d005607fb0cc738fe92f1d6627499c171e/Screenshot%202025-07-31%20143533.png)
+![image alt](https://github.com/Henryugo87/SQL-Project/blob/78164e5eeb63836786f8bffbdfafdee76c9a1f84/Screenshot%202025-07-31%20143631.png)
 
 
 3. *Show every order together with the customer’s full name, the product name, quantity, unit price, total price (quantity × unit price), and order date.*
