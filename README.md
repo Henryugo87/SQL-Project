@@ -79,3 +79,23 @@ where p.ProductID=1
 
 ![image alt](https://github.com/Henryugo87/SQL-Project/blob/89ae21a0f065595cd4e440a85b6d56e5d6e3197d/Screenshot%202025-07-31%20143533.png)
 
+
+3. *Show every order together with the customer’s full name, the product name, quantity, unit price, total price (quantity × unit price), and order date.*
+<pre>
+--Show every order together with the customer’s full name, the product name, quantity, unit price, total price (quantity × unit price), and order date.
+SELECT 
+    c.FirstName + ' ' + c.LastName AS CustomerFullName,
+    p.ProductName,
+    o.Quantity,
+    p.UnitPrice,
+    (o.Quantity * p.UnitPrice) AS TotalPrice,
+    o.OrderDate
+FROM 
+    OrdersTB AS o
+INNER JOIN 
+    CustomerTB AS c ON o.CustomerID = c.CustomerID
+INNER JOIN 
+    ProductTB AS p ON o.ProductID = p.ProductID;
+</pre>
+
+![image alt]()
