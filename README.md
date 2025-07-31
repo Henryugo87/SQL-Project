@@ -79,6 +79,18 @@ where p.ProductID=1
 
 ![image alt](https://github.com/Henryugo87/SQL-Project/blob/89ae21a0f065595cd4e440a85b6d56e5d6e3197d/Screenshot%202025-07-31%20143533.png)
 
+2. *To List all Customers' full names in ascending alphabetical order (LastName, then FirstName)*
+SELECT 
+    LastName, 
+    FirstName
+FROM 
+    CustomerTB
+ORDER BY 
+    LastName ASC, 
+    FirstName ASC;
+
+![image alt]()
+
 
 3. *Show every order together with the customer’s full name, the product name, quantity, unit price, total price (quantity × unit price), and order date.*
 <pre>
