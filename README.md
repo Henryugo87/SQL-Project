@@ -77,5 +77,5 @@ join ProductTB p on o.ProductID = p.ProductID
 where p.ProductID=1
 </pre>
 
-![image alt]()
+![image alt](https://github.com/Henryugo87/SQL-Project/blob/89ae21a0f065595cd4e440a85b6d56e5d6e3197d/Screenshot%202025-07-31%20143533.png)
 
